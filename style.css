@@ -11,4 +11,70 @@ body {
     padding: 30px;
 }
 
-header {}
+header {
+    border-bottom: 1px solid blanchedalmond;
+}
+.search-form-input {
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.search-form-button {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 36px 0;
+}
+
+.weather-app-city {
+    margin: 0;
+    line-height: 48px;
+}
+
+.weather-temperature-container {
+    display: flex;
+}
+
+.weather-app-temperature {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+.degress {
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.weather-app-icon {
+    font-size: 48px;
+    margin-top: 22px;
+}
+.weather-app-details {
+    font-size: 16px;
+    color: rgba(39, 33, 66, 0.4);
+    line-height: 20px;
+    font-weight: 500;
+}
+footer {
+    border-top: 1px solid blanchedalmond;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0,6);
+}

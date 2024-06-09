@@ -9,25 +9,28 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city.." required />
-            <input type="submit" value="search" />
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city.." class="search-form-input" required />
+            <input type="submit" value="search" class="search-form-button" />
         </form>
 
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
         <h1>
             Durban
-        </h1>
-        <p>
+        </h1 class="weather-app-city">
+        <p class="weather-app-details">
             Sunday 16:09, Sunny
             <br />
             Humidity: 66%, wind: 4km/h
         </p>
+        </div class="weather-temperature-container">
+        <div class="weather-app-icon">🌞</div>
+        <div class="weather-app-temperature">20</div>div?
+        <div class="degrees">°C</div>
         </div>
-        <div>
-        20°C
         </div>
 
     </main>
