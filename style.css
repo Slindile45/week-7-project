@@ -59,6 +59,7 @@ main {
 .degress {
     font-size: 28px;
     margin-top: 16px;
+    font-weight: bold;
 }
 
 .weather-app-icon {
